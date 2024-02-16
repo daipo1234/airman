@@ -1,0 +1,21 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-proguard": {
+      "PACKAGE_NAME": "자랑스러운 공군, 공군인"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "자랑스러운 공군, 공군인"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "자랑스러운 공군"
+    }
+  },
+  "dependent_plugins": {}
+}

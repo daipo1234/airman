@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<div class="UccPage">
+    <div class="listBackButton" onclick="backButton()"></div>
+    <div class="uccHeader">
+        <div class="uccWrap">
+            <div class="uccHeadStep"></div>
+            <div class="uccHeadLeft"></div>
+            <div class="six listIcon"></div>
+            <div class="uccHeadInfo listHeadInfoFont LHLeft-2">공군역사영상</div>
+        </div>
+    </div>
+    <div class="uccContent-1">
+        <div class="uccBlock-2 uccBlockFont bb-1-1"><div class="uccLS">홍보영상</div></div>
+        <div id = "b-1">
+                <div class="uccCBlock pur-1 contentInfoFont" ng-repeat="ucc in ucc">
+                    <a href="https://www.youtube.com/embed/{{ucc.url}}"><div class="uccLS">{{ucc.name}}</div></a>
+                </div>
+        </div>
+    </div>
+    <div class="uccFooter">
+        <a href="#mainPage"><div class="listHomeButton"></div></a>
+    </div>
+</div>

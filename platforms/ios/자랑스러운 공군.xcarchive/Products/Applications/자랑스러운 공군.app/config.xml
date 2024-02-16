@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.awp" version="2.1.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>자랑스러운 공군</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <icon height="60" src="res/ios/icon-60.png" width="60" />
+    <icon height="120" src="res/ios/icon-60@2.png" width="120" />
+    <icon height="76" src="res/ios/icon-76.png" width="76" />
+    <icon height="152" src="res/ios/icon-76@2.png" width="152" />
+    <icon height="57" src="res/ios/icon-57.png" width="57" />
+    <icon height="114" src="res/ios/icon-57@2.png" width="114" />
+    <icon height="72" src="res/ios/icon-72.png" width="72" />
+    <icon height="144" src="res/ios/icon-72@2.png" width="144" />
+    <splash height="960" src="res/ios/launch/iphone4_ios7.jpg" width="640" />
+    <splash height="1024" src="res/ios/launch/ipad_ios7_portrait.jpg" width="768" />
+    <splash height="2048" src="res/ios/launch/ipad_2x_ios7_portrait.jpg" width="1536" />
+    <splash height="768" src="res/ios/launch/ipad_ios6_landscape.jpg" width="1024" />
+    <splash height="1536" src="res/ios/launch/ipad_2x_ios7_landscape.jpg" width="2048" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="orientation" value="portrait" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="FadeSplashScreenDuration" value="1500" />
+    <preference name="SplashMaintainAspectRatio" value="false" />
+    <preference name="largeHeap" value="true" />
+    <preference name="android-targetSdkVersion" value="26" />
+</widget>

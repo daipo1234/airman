@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "501456549994",
+    "firebase_url": "https://kkin-c55d2.firebaseio.com",
+    "project_id": "kkin-c55d2",
+    "storage_bucket": "kkin-c55d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501456549994:android:f52ffe99dc638fdf",
+        "android_client_info": {
+          "package_name": "io.cordova.awp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501456549994-91ugfo0gqdohtqcajat18ruk51j418l1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2Ya67uGJXZnfvY9CSEBluYPedzS6mOmM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "2.1.5"
+}

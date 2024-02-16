@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<div class="contentPage">
+    <div class="filter" ng-class="filterChange">
+        <div class="zoomRound" ng-class="filterRChange" ng-click="zoomFunc()"> <!--ng-click="zoomFunc()"   zoom 과 photo 리스트 아직 안됨-->
+            <div class="zoomButton"></div>
+        </div>
+
+        <div class="listBackButton" onclick="backButton()"></div>
+        <div class="contentHeader">
+            <a href="#/photo/{{photoParam}}"><div class="contentPicture" ng-class="photo" ng-click="TextOrPhoto()"></div></a>
+            <div class="contentInfo contentInfoFont" ng-class="lineInfo">
+                <p class="headInfo">{{information_1}}</p><p class="headInfo">{{information_2}}</p>
+                <p class="headInfo">{{name}}</p>
+                <span class="contentYear contentYearFont">{{ year }}</span>
+            </div>
+            <div class="photoCheck" ng-class="exist"></div>
+        </div>
+        <hr>
+
+
+        <div class="contentContent contentFont" ng-class="zoom" ng-swipe-left="onSwipeLeft()" ng-swipe-right="onSwipeRight()">
+            <div ng-class="fontZoom">{{ mainText }}</div>
+            <div ng-class="fontZoom" class="textF textF_Font" >{{ subText_1 }}</div>
+            <div ng-class="fontZoom" class="textFF textF_Font" >{{ subText_2 }}</div>
+            <div ng-class="fontZoom" class="textF textF_Font" >{{ subText_3 }}</div>
+            <div ng-class="fontZoom" class="textFF textF_Font" >{{ subText_4 }}</div>
+            <div ng-class="fontZoom" class="textF textF_Font" >{{ subText_5 }}</div>
+            <div ng-class="fontZoom" class="textFF textF_Font" >{{ subText_6 }}</div>
+
+            <div class="willows contentYearFont" ng-class="fontZoom" ng-if="willowsCheck == 1009">
+                <div class="willowsYear">1920. 1.</div>
+                <div class="willowsText">노백린 샌프란시스코 방문 비행학교 창설 구상</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsYear">1920. 1.</div>
+                <div class="willowsText">미 대한인국민회가 임시정부 승인하에 군사상 필요한 예산 책정(부지 40에이커 확보, 학교건물 임대, 비행기 3대 구입, 비행교관 1명 채용, 교양교관 2명 채용 구상)</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsYear">1920. 2. 5.</div>
+                <div class="willowsText">노백린의 미 레드우드 비행학교 방문 시 비행을 배우고 있던 이용근외 5명을 만나 기념사진 촬영</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsYear">1920. 2. 19.</div>
+                <div class="willowsText">미국 신문 윌로우스 데일리 저널 “한국인들, 비행장 갖는다.” 보도</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsYear">1920. 3. 19.</div>
+                <div class="willowsText">비행학교 생도의 집 -건장한 청년 24인 입학 보도</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsYear">1920. 4. 13.</div>
+                <div class="willowsText">노백린 군무총장 상해임시정부 이동휘 국무총리에게 비행학교설립 보고 및 지침을 받음(서신)</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsYear">1920. 6. 22.</div>
+                <div class="willowsText">교육생 30명 증원 및 미국인 비행교관 브라이언트 취임</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsYear">1920. 6.</div>
+                <div class="willowsText">미 레드우드 비행학교 비행 훈련 중인 한장호, 이용근, 장병훈 입학</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsYear">1920. 7. 2.</div>
+                <div class="willowsText">홀스캇(Hall-Scott) 엔진 1개를 장착한 스탠다드 J-1 비행기 구매</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsYear">1920. 7. 5</div>
+                <div class="willowsText">공식 개교</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsYear">1920. 7. 15.</div>
+                <div class="willowsText">설립 주역 노백린 임시정부 군무총장 상해 임시정부로 복귀</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsYear">1920. 8.</div>
+                <div class="willowsText">비행가 양성소 초대 총재 김종림 취임 비행학교 초대 감독 곽림대 취임</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsYear">1921. 4.</div>
+                <div class="willowsText">자금난으로 인한 폐교 (홍수로 인한 재정후원자인 김종림의 쌀농사 타격으로 재정 지원 불가)</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsYear">1921. 7. 20.</div>
+                <div class="willowsText">임시정부 비행학교 배출 박희성, 이용근을 대한민국 최초 비행장교 1호로 임명</div>
+                <div class="willowsBlank"></div>
+                <div class="willowsPic"></div>
+                <div class="willowsPicText">< 임시정부 한인 비행학교 초기 모습 ></div>
+            </div>
+
+            <a ng-class="fontZoom" href="{{internet}}"><div class="outerLink" ng-class="existUrl"><br><br> ◎ <span class="outerLinkUnderLine">더보기</span> (국가보훈처)</div></a>
+            <div class="contentStep"></div>
+        </div>
+
+
+
+        <div class="contentFooter">
+            <div class="FWrap-1" ng-class="contentF">
+                <a href="#mainPage"><div class="contentHomeButton-1 footBut"></div></a>
+            </div>
+        </div>
+
+    </div>
+</div>

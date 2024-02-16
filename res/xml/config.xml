@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.awp" version="2.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>자랑스러운 공군, 공군인</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <icon density="xxxhdpi" src="platforms/android/res/android/xxxhdpi/appicon.png" />
+    <splash density="land-hdpi" src="platforms/android/res/drawable-land-hdpi/fff.png" />
+    <splash density="land-ldpi" src="platforms/android/res/drawable-land-ldpi/fff.png" />
+    <splash density="land-mdpi" src="platforms/android/res/drawable-land-mdpi/fff.png" />
+    <splash density="land-xhdpi" src="platforms/android/res/drawable-land-xhdpi/fff.png" />
+    <splash density="port-hdpi" src="platforms/android/res/drawable-port-hdpi/fff.png" />
+    <splash density="port-ldpi" src="platforms/android/res/drawable-port-ldpi/fff.png" />
+    <splash density="port-mdpi" src="platforms/android/res/drawable-port-mdpi/fff.png" />
+    <splash density="port-xhdpi" src="platforms/android/res/drawable-port-xhdpi/fff.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="orientation" value="portrait" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="FadeSplashScreenDuration" value="1500" />
+    <preference name="SplashMaintainAspectRatio" value="false" />
+    <preference name="largeHeap" value="true" />
+</widget>

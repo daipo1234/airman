@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<div class="listPage listC5">
+    <div class="listBackButton" onclick="backButton()"></div>
+    <div class="F-head-5">
+        <div class="listHeadInfo-5 listHeadInfoFont-1 LHLeft">{{list5Year}}년대 순직 조종사</div>
+    </div>
+
+    <div class="list5Cal calYear">소 속</div>
+    <div class="list5Cal calName">계급</div>
+    <div class="list5Cal calPlace">성 명</div>
+    <div class="list5Cal calRipPlace">출신기수</div>
+    <div class="list5Cal calYear">일시</div>
+    <div class="list5Cal calName">장소</div>
+    <div class="list5Cal calPlace">기종</div>
+    <div class="list5Cal calRipPlace">안장장소</div>
+
+    <div class="list5Block">
+        <div class="list5Row" ng-repeat="list in list">
+            <div class="calCon calYear">{{list.base}}</div>
+            <div class="calCon calName ">{{list.rank}}</div>
+            <div class="calCon calPlace ">{{list.name}}</div>
+            <div class="calCon calRipPlace ">{{list.from}}</div>
+            <div class="calCon-1 calYear">{{list.year}}</div>
+            <div class="calCon-1 calName ">{{list.place}}</div>
+            <div class="calCon-1 calPlace ">{{list.aircraft}}</div>
+            <div class="calCon-1 calRipPlace ">{{list.rip}}</div>
+        </div>
+    </div>
+
+    <div class="listFooter">
+        <a href="#mainPage"><div class="listHomeButton"></div></a>
+    </div>
+    <div class="listBack blur-5"></div>
+</div>

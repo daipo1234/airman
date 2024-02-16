@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<div class="photoListPage">
+    <div class="listBackButton" onclick="backButton()"></div>
+    <div class="photoFilter" ng-swipe-left="photoSwipeLeft()" ng-swipe-right="photoSwipeRight()">
+        <div class="photoListTitle">{{photoListTitle}}</div>
+        <div class="photoListBlock" ng-class="photoList_photo"></div>
+        <div class="photoListText">{{photoList_text}}</div>
+    </div>
+    <div class="photoListFooter">
+        <div class="FWrap-1" ng-class="contentF">
+            <a href="#mainPage"><div class="contentHomeButton-1 photofootBut"></div></a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+{
+    "android": {        
+        "release": {
+            "keystore": "kkin.keystore",
+            "storePassword": "roqkfeo##01",
+            "alias": "kkin",
+            "password": "roqkfeo##01",
+            "keystoreType": ""
+        }
+    },
+    "ios": {
+        "release": {
+            "buildFlag": [
+                "-UseModernBuildSystem=0"
+            ]
+        },
+        "debug": {
+            "buildFlag": [
+                "-UseModernBuildSystem=0"
+            ]
+        }
+    }
+}

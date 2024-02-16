@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<div class="todayPage">
+    <div class="todayHeader">
+        <div class="todayWrap">
+            <div class="todayHeadInfo listHeadInfoFont LHLeft-0">
+                {{currentMonth}}월의 공군인물
+            </div>
+            <div class="seven todayIcon"></div>
+        </div>
+    </div>
+    <div class="todayContentWrap">
+
+        <div class="todayContent" ng-repeat="month in month" ng-class-odd="'blue-1'" ng-class-even="'blue-2'">
+            <a href="#{{month.keyParam}}">
+            <div class="toroupic" ng-class="month.photo"></div>
+            <div class="totext"><span class="toname tableFont">{{month.name}}</span><br><span class="toyear contentInfoFont">{{month.year}}</span></div>
+            </a>
+        </div>
+
+        <!--<div class="todayContent" ng-repeat="monthPilot in monthPilot" ng-class-odd="'blue-1'" ng-class-even="'blue-2'">
+            <a href="#{{monthPilot.keyParam}}">
+                <div class="toroupic" ng-class="monthPilot.photo"></div>
+                <div class="totext"><span class="toname tableFont">{{monthPilot.name}}</span><br><span class="toyear contentInfoFont">{{monthPilot.year}}</span></div>
+            </a>
+        </div>-->
+
+    </div>
+
+    <div class="todayFooter">
+        <a href="#mainPage"><div class="listHomeButton"></div></a>
+    </div>
+</div>

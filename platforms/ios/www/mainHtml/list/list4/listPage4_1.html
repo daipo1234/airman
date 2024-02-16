@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<div class="listPage listC4">
+    <div class="listBackButton" onclick="backButton()"></div>
+    <div class="F-head">
+        <div class="headStep"></div>
+        <div class="headLeft"></div>
+        <div class="four listIcon"></div>
+        <div class="listHeadInfo listHeadInfoFont LHLeft-4">6·25전쟁영웅</div>
+    </div>
+
+    <div ng-class="goContentFunc(4000)"></div>
+    <div class="F-content">
+        <table class="tableFont forTable4">
+            <tbody>
+            <tr>
+                <td ng-class="goContentFunc(4010)" ><a href="#content/{{param}}">강호륜</a></td>
+                <td ng-class="goContentFunc(4020)" ><a href="#content/{{param}}">유치곤</a></td>
+                <td ng-class="goContentFunc(4001)" ><a href="#content/{{param}}">전구서</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4011)" ><a href="#content/{{param}}">고광수</a></td>
+                <td ng-class="goContentFunc(4021)" ><a href="#content/{{param}}">이경복</a></td>
+                <td ng-class="goContentFunc(4002)" ><a href="#content/{{param}}">천봉식</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4012)" ><a href="#content/{{param}}">김금성</a></td>
+                <td ng-class="goContentFunc(4022)" ><a href="#content/{{param}}">이근석</a></td>
+                <td ng-class="goContentFunc(4003)" ><a href="#content/{{param}}">최용덕</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4013)" ><a href="#content/{{param}}">김성룡</a></td>
+                <td ng-class="goContentFunc(4023)" ><a href="#content/{{param}}">이기협</a></td>
+                <td ng-class="goContentFunc(4004)" ><a href="#content/{{param}}">최종봉</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4014)" ><a href="#content/{{param}}">김영환</a></td>
+                <td ng-class="goContentFunc(4024)" ><a href="#content/{{param}}">이상수</a></td>
+                <td ng-class="goContentFunc(4005)" ><a href="#content/{{param}}">최종성</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4015)" ><a href="#content/{{param}}">김현일</a></td>
+                <td ng-class="goContentFunc(4025)" ><a href="#content/{{param}}">이세영</a></td>
+                <td ng-class="goContentFunc(4006)" ><a class="deanHess" href="#content/{{param}}">Dean Hess</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4016)" ><a href="#content/{{param}}">나창준</a></td>
+                <td ng-class="goContentFunc(4007)" ><a href="#content/{{param}}">이일영</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4017)" ><a href="#content/{{param}}">박두원</a></td>
+                <td ng-class="goContentFunc(4008)" ><a href="#content/{{param}}">이찬권</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4018)" ><a href="#content/{{param}}">박희동</a></td>
+                <td ng-class="goContentFunc(4009)" ><a href="#content/{{param}}">임택순</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4019)" ><a href="#content/{{param}}">신철수</a></td>
+                <td ng-class="goContentFunc()" ><a href="#content/{{param}}">장동출</a></td>
+            </tr>
+            </tbody>
+            <!--
+    강호륜
+고광수
+김금성
+김성룡
+김영환
+김현일
+나창준
+박두원
+박희동
+신철수
+
+유치곤
+이경복
+이근석
+이기협
+이상수
+이세영
+이일영
+이찬권
+임택순
+장동출
+
+전구서
+천봉식
+최용덕
+최종봉
+최종성
+    ><-->
+            <!--<tbody>
+            <tr>
+                <td ng-class="goContentFunc(4010)" ><a href="#content/{{param}}">박두원</a></td>
+                <td ng-class="goContentFunc(4020)" ><a href="#content/{{param}}">이찬권</a></td>
+                <td ng-class="goContentFunc(4001)" ><a href="#content/{{param}}">김성룡</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4011)" ><a href="#content/{{param}}">이세영</a></td>
+                <td ng-class="goContentFunc(4021)" ><a href="#content/{{param}}">김현일</a></td>
+                <td ng-class="goContentFunc(4002)" ><a href="#content/{{param}}">전구서</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4012)" ><a href="#content/{{param}}">고광수</a></td>
+                <td ng-class="goContentFunc(4022)" ><a href="#content/{{param}}">신철수</a></td>
+                <td ng-class="goContentFunc(4003)" ><a href="#content/{{param}}">최용덕</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4013)" ><a href="#content/{{param}}">임택순</a></td>
+                <td ng-class="goContentFunc(4023)" ><a href="#content/{{param}}">최종봉</a></td>
+                <td ng-class="goContentFunc(4004)" ><a href="#content/{{param}}">김영환</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4014)" ><a href="#content/{{param}}">유치곤</a></td>
+                <td ng-class="goContentFunc(4024)" ><a href="#content/{{param}}">이기협</a></td>
+                <td ng-class="goContentFunc(4005)" ><a href="#content/{{param}}">이근석</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4015)" ><a href="#content/{{param}}">강호륜</a></td>
+                <td ng-class="goContentFunc(4025)" ><a href="#content/{{param}}">박희동</a></td>
+                <td ng-class="goContentFunc(4006)" ><a class="deanHess" href="#content/{{param}}">Dean Hess</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4016)" ><a href="#content/{{param}}">천봉식</a></td>
+                <td ng-class="goContentFunc(4007)" ><a href="#content/{{param}}">장동출</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4017)" ><a href="#content/{{param}}">이경복</a></td>
+                <td ng-class="goContentFunc(4008)" ><a href="#content/{{param}}">이상수</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4018)" ><a href="#content/{{param}}">이일영</a></td>
+                <td ng-class="goContentFunc(4009)" ><a href="#content/{{param}}">나창준</a></td>
+            </tr>
+            <tr>
+                <td ng-class="goContentFunc(4019)" ><a href="#content/{{param}}">최종성</a></td>
+                <td ng-class="goContentFunc()" ><a href="#content/{{param}}">김금성</a></td>
+            </tr>
+            </tbody>-->
+        </table>
+    </div>
+
+
+    <div class="listFooter">
+        <a href="#mainPage"><div class="listHomeButton"></div></a>
+    </div>
+    <div class="listBack blur-4"></div>
+</div>

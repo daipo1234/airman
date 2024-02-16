@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<div class="listPage listC4" ng-swipe-left="pilotTextNext()" ng-swipe-right="pilotTextPrev()">
+    <div class="listBackButton" onclick="backButton()"></div>
+    <div class="pilotHead listHeadInfoFont LHLeft-5">6·25 출격조종사</div>
+
+    <div class="pilotPhoto" ng-class="pilotPhotoUrl"></div>
+    <div class="pilotName">{{pilotName}}</div><hr>
+    <div class="listBack blur-4"></div>
+
+    <div class="pilotBlock">
+        <div class="pilotTextL">계급</div><div class="pilotTextR">{{pilotRank}}</div>
+        <div class="pilotTextL">출신</div><div class="pilotTextR">{{pilotFrom}}</div>
+        <div class="pilotTextL">생몰일</div><div class="pilotTextR">{{pilotYear}}</div>
+        <div class="pilotTextL">기종</div><div class="pilotTextR">{{pilotAircraft}}</div>
+        <div class="pilotTextL">출격횟수</div><div class="pilotTextR">{{pilotFrequency}}</div>
+        <div class="pilotTextL">비고</div><div class="pilotTextR">{{pilotEtc}}</div>
+    </div>
+</div>
