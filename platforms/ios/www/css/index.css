@@ -129,10 +129,11 @@ a {
 
 .policy {
     width: 100%;
-    bottom: 6%;
-    text-align: center;
+    bottom: 0%;
+    text-align: right;
     position: absolute;
-    color: black
+    color: black;
+    font-size: 4vw;
 }
 
 .goCredit {
